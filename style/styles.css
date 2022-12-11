@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+.background-img{
+    background-image: url('../images/387540.jpg');
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}   
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -58,7 +66,7 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
     .toggle-button {
         display: flex;
     }
