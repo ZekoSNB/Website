@@ -6,3 +6,9 @@ Portfolio website | project
 - #9400FF
 - #AED2FF
 - #E4F1FF
+
+# TODO
+
+- [ ] Home section background color/image
+- [ ] AboutMe document
+
