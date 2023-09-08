@@ -1,0 +1,6 @@
+#Home {
+    min-height: 94vh;
+    background-image: url("../images/skate-me.jpg");
+    background-size: contain;
+    object-fit: cover;
+}

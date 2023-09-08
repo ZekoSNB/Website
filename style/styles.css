@@ -2,35 +2,39 @@
     box-sizing: border-box;
 }
 
-body {
+body,html {
     margin: 0;
     padding: 0;
+}
+h1 ,a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #E4F1FF;
 }
 
 
 .navbar {
     display: flex;
+    height: 6vh;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #27005D;
     color: white;
-    position: sticky;
-    top: 50px;
+    padding: 0 10px 0 10px;
 }
 
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+.brand-title h1{
+    font-size: 1.8rem;
+    margin-left: 15px;
 }
 
 .navbar-links ul {
-    margin: 0;
-    padding: 0;
-    align-items: center;
     display: flex;
+    flex-direction: row;
+    font-size: 19px;
 }
 .navbar-links li {
     list-style: none;
+    margin-left: 5px;
 }
 .navbar-links li a {
     text-decoration: none;
@@ -40,71 +44,12 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    transition: ease-in 0.25s;
+    background-color: #9400FF;
 }
 
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 31px;
-    height: 21px;
-}
 
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
 
-@media only screen and (max-device-width: 600px) {
-    .toggle-button {
-        display: flex;
-    }
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-    .navbar-links li {
-        width: 100%;
-        text-align: center;
-    }
-    .navbar-links li a {
-        padding: 0.5rem 1rem;
 
-    }
-    .navbar-links.active {
-        display: flex;
-    }
-}
+   
 
-.background-img{
-    background-image: url('../images/387540.jpg');
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}   
-
-.title-name {
-    color: white;
-    height: 100vh   ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center ;
-}
