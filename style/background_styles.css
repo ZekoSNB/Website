@@ -1,7 +1,8 @@
 #Home {
     min-height: 93vh;
     /* background-image: url("../images/skate-me.jpg"); */
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/skate-me.jpg');
+    /* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/skate-me.jpg');  */
+    background-color: #E4F1FF;
     background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;

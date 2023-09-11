@@ -11,6 +11,11 @@ h1 ,a {
     color: #E4F1FF;
 }
 
+.center-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .navbar {
     display: flex;
@@ -48,8 +53,30 @@ h1 ,a {
     background-color: #9400FF;
 }
 
+#home-inside-div {
+    display: flex;
+    flex-direction: row;
+}
 
+.section-text-contain {
+    vertical-align: middle;
+    text-align: center;
+}
 
+.section-photo-contain {
+    width: 45%; /* You can adjust this width as needed */
+    height: auto; /* Set the same height as the width to create a 1:1 aspect ratio */
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+    overflow: hidden;
+}
+
+.section-photo-contain img {
+    
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
 
    
 
