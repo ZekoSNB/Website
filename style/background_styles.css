@@ -1,6 +1,9 @@
 #Home {
-    min-height: 94vh;
-    background-image: url("../images/skate-me.jpg");
-    background-size: contain;
-    object-fit: cover;
+    min-height: 93vh;
+    /* background-image: url("../images/skate-me.jpg"); */
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/skate-me.jpg');
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

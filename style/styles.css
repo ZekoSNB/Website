@@ -14,7 +14,7 @@ h1 ,a {
 
 .navbar {
     display: flex;
-    height: 6vh;
+    height: 7vh;
     justify-content: space-between;
     align-items: center;
     background-color: #27005D;
