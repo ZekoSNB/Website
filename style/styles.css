@@ -55,28 +55,56 @@ h1 ,a {
 
 #home-inside-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .section-text-contain {
+    width: 60%;
     vertical-align: middle;
     text-align: center;
 }
+.section-text-contain{
+    font-size: 1.4rem;
+    line-height: 110%;
+}
 
 .section-photo-contain {
-    width: 45%; /* You can adjust this width as needed */
-    height: auto; /* Set the same height as the width to create a 1:1 aspect ratio */
+    margin: 20px 0 20px 0;
+    width: 40%;
     border-radius: 20px;
-    margin: 0 10px 0 10px;
     overflow: hidden;
 }
 
 .section-photo-contain img {
-    
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
-   
+#About {
+    height: 95vh;
+    background-color: #AED2FF;
+}
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.flex-row div {
+    width: 50%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-paragraph {
+    text-align: center;
+    line-height: 130%;
+    font-size: 1.15rem;
+    width: 70%;
+}

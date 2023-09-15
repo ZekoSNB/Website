@@ -1,0 +1,3 @@
+# Who Am I?
+
+Hi! My name is Maroš Tomašov, also known as Zeko. I am studying Information and network technologies at high school in Handlová. For 3 years I've been programming on my computer, Primarily Python, and for the last few months I've been working with JavaScript. My journey didn't start 3 years back. I was a little kid, not playing outside as did other kids back then, I was at home playing games or creating small low-voltage electric cuircits with old flashlights, DC motors  and batteries. I enjoyed it and it brought me happines. Since I grew up and knew how to write code I bought few arduinos and created funny little projects. One of those projects power up my LEDs behind my monitor using Mosfet Transistor and 12V LED strip.

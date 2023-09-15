@@ -8,3 +8,8 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+#transition-1 {
+    height: 10vh;
+    background: linear-gradient(#E4F1FF, #AED2FF);
+}
