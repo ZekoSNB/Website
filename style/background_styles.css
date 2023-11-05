@@ -2,7 +2,8 @@
     min-height: 93vh;
     /* background-image: url("../images/skate-me.jpg"); */
     /* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/skate-me.jpg');  */
-    background-color: #E4F1FF;
+    /* background-color: #E4F1FF; */
+    background-color: #27005D;
     background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;
@@ -11,5 +12,6 @@
 
 #transition-1 {
     height: 10vh;
-    background: linear-gradient(#E4F1FF, #AED2FF);
+    /* background: linear-gradient(#E4F1FF, #AED2FF); */
+    background: linear-gradient(#27005D, #AED2FF);
 }

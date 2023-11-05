@@ -3,6 +3,7 @@
 }
 
 body,html {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +23,7 @@ h1 ,a {
     height: 7vh;
     justify-content: space-between;
     align-items: center;
-    background-color: #27005D;
+    background-color: #9400FF;
     color: white;
     padding: 0 10px 0 10px;
 }
@@ -50,13 +51,9 @@ h1 ,a {
 
 .navbar-links li:hover {
     transition: ease-in 0.25s;
-    background-color: #9400FF;
+    background-color: #23005D;
 }
 
-#home-inside-div {
-    display: flex;
-    flex-direction: column;
-}
 
 .section-text-contain {
     width: 60%;
@@ -72,6 +69,7 @@ h1 ,a {
     margin: 20px 0 20px 0;
     width: 40%;
     border-radius: 20px;
+    border: solid 3px white;
     overflow: hidden;
 }
 
@@ -82,13 +80,22 @@ h1 ,a {
 }
 
 #About {
-    height: 95vh;
+    padding: 50px 0 0 0;
+    transition: 0.25s ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 95vh; */
+    min-height: 70vh;
+    height: auto;
     background-color: #AED2FF;
 }
 
 .flex-row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border: solid 5px black;
     width: 100%;
     height: 50%;
 }
@@ -96,6 +103,30 @@ h1 ,a {
 .flex-row div {
     width: 50%;
 }
+
+.about-me-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+/* @media (min-width: 1200px) {
+    #About {
+        transition: 0.25s ease-in;
+        display: flex;
+        flex-direction: row;
+    }
+  } */
+
+@media (max-width: 700px) {
+    .about-me-div {
+        flex-direction: column;
+        height: auto;
+    }
+    
+}
+
 
 .flex-column {
     display: flex;
