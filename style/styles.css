@@ -59,7 +59,7 @@ h1 ,a {
 .section-text-contain {
     width: 60%;
     vertical-align: middle;
-    text-align: center;
+    text-align: justify;
 }
 .section-text-contain{
     font-size: 1.4rem;
